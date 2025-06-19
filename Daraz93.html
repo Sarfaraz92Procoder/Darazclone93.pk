@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daraz</title>
+  <link rel="stylesheet" href="stylecc.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <div class="d-flex flex-wrap justify-content-end align-item-center topAnchor">
+<a href="#">Save More on App</a>
+<a href="#">Help And Support</a>
+<a href="#">Sell On Daraz</a>
+<a href="#">Login</a>
+  </div>
+  <nav class="navbar navbar-expand-lg  header">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="3b870cb043c7f8a9741cbf66329e294e.png" alt="" width="120px" height="40px">
+    </a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">  
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+       </ul> -->
+      <form class="d-flex" role="search">
+        <input class=" input" type="search" placeholder="Search In Daraz" aria-label="Search" />
+        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+       <i class="fa-solid fa-magnifying-glass search "></i>
+
+      </form>
+      <i class="fa-solid fa-cart-shopping cart"></i>
+    </div>
+  </div>
+</nav>
+<div id="carouselExample" class="carousel slide ms-4">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Slider_1.webp" class="d-block w-100 " alt="..." height="350px">
+    </div>
+    <div class="carousel-item">
+      <img src="Slider_2.webp" class="d-block w-100" alt="..." height="350px">
+    </div>
+    <div class="carousel-item">
+      <img src="Slider_3.webp" class="d-block w-100" alt="..." height="350px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- <h3 class="ms-4 mt-2">FLASH SALE</h3> 
+  <div class="top d-flex justify-content-between ms-4 me-4">
+    <p class="toppara">On Sale Now</p>
+    <button class="topbutton"> Show All Products</button>
+</div>
+<div class="Main d-flex justify-ontent-around mt-2 ms-4 me-4">
+  <div class="card card1" style="width: 13rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top Cardpic1 w-75 ms-4 mt-4" alt="..." height="120px" >
+  <div class="card-body">
+  <p class="card-text cardheading">Ladies Bags Cross Body Shoulder Bags at</p>
+  <p class="card-text rupees">Rs : 999</p>
+  <p class=""><span class="Price1">Rs : 1450</span>-30%</p>
+  </div>
+</div>
+  <div class="card card1" style="width: 13rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top Cardpic1 w-75 ms-4 mt-4" alt="..." height="120px" >
+  <div class="card-body">
+  <p class="card-text cardheading">Ladies Bags Cross Body Shoulder Bags at</p>
+  <p class="card-text rupees">Rs : 999</p>
+  <p class=""><span class="Price1">Rs : 1450</span>-30%</p>
+  </div>
+</div>
+  <div class="card card1" style="width: 13rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top Cardpic1 w-75 ms-4 mt-4" alt="..." height="120px" >
+  <div class="card-body">
+  <p class="card-text cardheading">Ladies Bags Cross Body Shoulder Bags at</p>
+  <p class="card-text rupees">Rs : 999</p>
+  <p class=""><span class="Price1">Rs : 1450</span>-30%</p>
+  </div>
+</div>
+  <div class="card card1" style="width: 13rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top Cardpic1 w-75 ms-4 mt-4" alt="..." height="120px" >
+  <div class="card-body">
+  <p class="card-text cardheading">Ladies Bags Cross Body Shoulder Bags at</p>
+  <p class="card-text rupees">Rs : 999</p>
+  <p class=""><span class="Price1">Rs : 1450</span>-30%</p>
+  </div>
+</div>
+  <div class="card card1" style="width: 13rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top Cardpic1 w-75 ms-4 mt-4" alt="..." height="120px" >
+  <div class="card-body">
+  <p class="card-text cardheading">Ladies Bags Cross Body Shoulder Bags at</p>
+  <p class="card-text rupees">Rs : 999</p>
+  <p class=""><span class="Price1">Rs : 1450</span>-30%</p>
+  </div>
+</div>
+ </div> -->
+ <h3 class="ms-4 mt-2">Flash Sale</h3>
+ <div class="top d-flex justify-content-between ms-4 me-4">
+  <p class="Toppara">On Sale Now</p>
+  <button class="Topbutton">Show All Products</button>
+ </div>
+ <div class="Main2 d-flex justify-content-around mt-2 ms-4 me-4">
+ <div class="card Card2" style="width: 14rem;height: 19rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Price2">Rs : 990 </p>
+    <p class=""><span class="Price2a">Rs : 1450</span> -35%  </p>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 19rem;">
+  <img src="Card Daraz Pic 2.webp" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1">Exclusive Smart Phones For Our Premium Customers With  Modern day Requirements</p>
+    <p class="card-text Price2">Rs : 140000 </p>
+    <p class=""><span class="Price2a">Rs : 22500</span> -45%  </p>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 19rem;">
+  <img src="Card Daraz Pic 1.webp" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1">Lactogrow Milk Powder that Nourish Your Children And Provide Massive Strength For Your Children</p>
+    <p class="card-text Price2">Rs : 1350 </p>
+    <p class=""><span class="Price2a">Rs : 1700</span> -25%  </p>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 19rem;">
+  <img src="Card Daraz Pic 3.webp" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1">Premium Treadmill For Our Fitness Freak Customer If You Buy This You Don't Worry About You Go To Gym </p>
+    <p class="card-text Price2">Rs : 108000 </p>
+    <p class=""><span class="Price2a">Rs : 154000</span> -30%  </p>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem; height: 19rem;">
+  <img src="Card Daraz Pic 4.webp" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1">Advance Robot For Your Loyal Customer Which Your Help In Home Chore And Also Help In Many Things</p>
+    <p class="card-text Price2">Rs : 64000 </p>
+    <p class="Paracard1"><span class="Price2a">Rs : 96000</span> -33%  </p>
+  </div>
+</div>
+ </div>
+<h3 class="mt-2 ms-4">Categories</h3>
+<div class="Main3 d-flex justify-content-between ms-4 me-4">
+ <div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="Speaker.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">Speaker Along With Alarm</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="Handsfree.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">Stereo Handsfree</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="Screen Protectors.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">Screen Protectors</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="only speaker.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">Beast Sound Speaker</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="Pendants.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">Pendants</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="pasta noodles and pizza toools.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">Pasta Noodles And Pizza Tools</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="Dining Sets.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">Dining Set</p>
+  </div>
+</div>
+</div>
+<div class="Main3 d-flex justify-content-around ms-4 me-4">
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="3d printers.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">3d Printers</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="pulley mechanism.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">Pulley Mechanism</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="Hoodies.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">Hoodies And Jeans</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="Sim Tools New.avif" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2"> Sim Tools</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="mattress.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">mattress Protection</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="Toy Boxes And Organizer.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">Toy Boxes And Organizer</p>
+  </div>
+</div>
+<div class="cardmini1 text-center" style="width: 9rem;">
+  <img src="Socks.webp" class="card-img-top" alt="..." width="100px" height="80px">
+  <div class="card-body">
+    <p class="card-centre mt-2">Socks</p>
+  </div>
+</div>
+</div>
+<h3 class="mt-2 ms-4">Just For You</h3>
+<div class="Main2 d-flex justify-content-between mt-2 ms-4 me-4">
+ <div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+ </div>
+   <div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div><div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+</div>
+<div class="Main4 justify-content-around d-flex mt-2 me-4 ms-4">
+  <div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+     <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+     <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+</div>
+<div class="Main5 justify-content-around d-flex mt-2 ms-4 me-4">
+  <div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+</div>
+<div class="Main6 d-flex justify-content-around mt-2 ms-4 me-4">
+  <div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+</div>
+<div class="Main6 d-flex justify-content-around mt-2 ms-4 me-4">
+  <div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+</div>
+<div class="Main6 d-flex justify-content-around mt-2 ms-4 me-4">
+  <div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+</div>
+<div class="Main6 d-flex justify-content-around mt-2 ms-4 me-4">
+  <div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+</div><div class="Main6 d-flex justify-content-around mt-2 ms-4 me-4">
+  <div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> -->
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+<div class="card Card2" style="width: 14rem;height: 20rem;">
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+     <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i> --> 
+  <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+</div>
+ <div class="card Card2" style="width: 14rem;height: 20rem;"> 
+  <img src="Card Daraz Pic 1 New.avif" class="card-img-top w-75 CardPic2 ms-4 mt-4" alt="..." height="120px">
+  <div class="card-body">
+    <p class="card-title TitleCard1star">Nestle Bunyad Milk Powder Now Nestle Will Come Extra For Your Child To Make Them Super</p>
+    <p class="card-text Pricestar">Rs : 990<span class="less-star"> -30% </span> </p>
+    <!-- <i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>  -->
+ <span><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i><i class="fa-solid fa-star cardstar1" ></i>(60)</span>
+  </div>
+ </div> 
+</div>
+  <button class="Loadbtn">LOAD MORE</button>
+  <div class="Message"><i class="fa-solid fa-message"></i> Message </div>
+  <!-- <footer class="d-flex  footer1"> 
+    <div class="fdiv1 mt-4 ms-4">
+      <p>PAYMENT METHOD</p>
+
+    </div>
+  </footer> -->
+  <footer class=" d-flex footer3">
+    <div class="div1footer">
+<p class="Care1">Customer Care</p>
+<a href="#">Help Centre</a>
+<a href="#">How To Buy</a> 
+<a href="#">Corparate And Bulk Purchasing</a>
+<a href="#">Returns & Refunds</a>
+<a href="#">Daraz Shop</a>
+<a href="#">Contact Us</a>
+<a href="#">Purchase Protection</a>
+<a href="#">Daraz Pickup Points</a>
+    </div>
+    <div class="div2footer">
+      <p class="Daraz2"> Daraz</p>
+      <a href="#">About Us</a>
+      <a href="#">Digital Payment</a>
+      <a href="#">Daraz Donates</a>
+      <a href="#">Daraz Blogs</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Online Shopping App</a>
+      <a href="#">Online Grocery Store</a>
+      <a href="#">Daraz Universirty</a>
+      <a href="#">Sell On Daraz</a>
+      <a href="#">Daraz Exclusive</a>
+      <a href="#">Join Affiliate Daraz Program</a>
+    </div>
+
+    <div class="div3footer"> 
+      <img src="B:\Daraz Website\Daraz Website by html\ffff.png" alt="" width="80px" height="50px">
+      <div>
+      <p class="happy2"> Happy Shopping </p>
+      <p class="Download"> Download App </p>
+      </div>
+      </div>
+        <div class="footer4div">
+        <div>
+        <img src="B:\Daraz Website\Daraz Website by html\App store.png" alt="" width="120px" height="40px">
+        <img src="B:\Daraz Website\Daraz Website by html\App Gallery.png" alt="" width="120px" height="40px">
+      </div>
+        <img src="B:\Daraz Website\Daraz Website by html\Google Play.png" alt="" width="120px" height="40px">
+      </div>
+      </footer>
+      <footer class="d-flex footer1">
+      <div class="fdiv1 mt-4 ms-4">
+<p>Payment Method</p>
+<img src="B:\Daraz Website\Daraz Website by html\Cah On Delivery.png" alt="" width="60px" height="40px">
+<img src="B:\Daraz Website\Daraz Website by html\HBL.png" alt="" width="60px" height="40px">
+<img src="B:\Daraz Website\Daraz Website by html\mastercard.png" alt="" width="60px" height="40px">
+<img src="B:\Daraz Website\Daraz Website by html\Union Pay.png" alt="" width="60px" height="40px">
+<img src="B:\Daraz Website\Daraz Website by html\Jazz Cah.png" alt="" width="60px" height="40px">
+<img src="B:\Daraz Website\Daraz Website by html\EASY MONTHLY INSTALLMENT.png" alt="" width="60px" height="40px">
+<br>
+<img src="B:\Daraz Website\Daraz Website by html\visa.png" alt="" width="60px" height="40px">
+<img src="B:\Daraz Website\Daraz Website by html\easypaisa.png" alt="" width="60px" height="40px">
+<img src="B:\Daraz Website\Daraz Website by html\daraz Wallet.png" alt="" width="60px" height="40px">
+</div>
+<div class="fdiv2 mt-4">
+  <p>VERIFIED BY</p>
+  <img src="B:\Daraz Website\Daraz Website by html\VERIFIED.png" alt="">
+</div>
+</footer>
+<footer class="Daraz1intro mt-4 ms-4 d-flex">
+  <div class="Introduction">
+    <h6>How Daraz Transformed Online Shopping <br>  in Pakistan?</h6>
+    <p>Daraz first made waves in Pakistan’s e-commerce market after its introduction in 2012. We have since grown to become Pakistan’s largest platform for online shopping with a network spread across Asia in Pakistan, Bangladesh, Sri Lanka, Myanmar, and Daraz.com.np. Our vision was to provide a safe, efficient online marketplace platform for vendors and customers across the country to come together. We started off exclusively as an online fashion retail platform and over the years expanded to become a complete one-stop solution for all your buying needs. Daraz prides itself on not being just another ecommerce venture in Asia. We work tirelessly to make sure that we provide users with the best online online shopping experience and value for their purchases. Whether you shop online through our website or our online shopping mobile App, you can expect easy navigation, customized recommendations, and a smooth online shopping experience guaranteed.</p>
+  <h6>What Makes Us Different from Other Online Shopping Platforms?</h6>
+  <p class="bold1">Select from the Largest Online Marketplace in Pakistan</p>
+  <p>With over 15 million products to select from, Daraz offers its customers the most comprehensive listing of products in the country. Whether you’re looking for electronics, apparel, appliances, or groceries – there is something for everyone.</p>
+<p class="bold2">Hassle Free Delivery</p>
+<p>Online shopping is only as good as its execution and Daraz promises hassle free delivery right from the moment you order to when your package is dropped at your door. We cater to both major and smaller cities alike, and give you the choice to track your package as it makes its way to you so you always know your order status. If you are unsatisfied with any aspect of your order, we have a simple 7-day return or exchange policy.</p>
+ <p class="bold3">Payment Options To Suit Every Style</p>
+<p>you can choose to pay through a credit/debit card, opt for cash on delivery or even go for EMI (easy monthly instalments). You can also</p>
+</div>
+<div class="Randompara1 ms-4">
+  <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit?</h6>
+  <p class="bold4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis deleniti tempora obcaecati quidem.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quaerat sunt mollitia culpa animi atque enim. Non sequi veritatis ipsam, pariatur adipisci, fugiat mollitia dicta ullam, saepe veniam cupiditate. Iusto ratione ab nulla inventore dolorum aliquid odio accusamus, facilis suscipit reiciendis sit corporis tenetur amet, dolor tempora provident ipsum dicta, expedita libero debitis quod. Maiores soluta eveniet voluptatum numquam. Placeat omnis cum harum, ipsa fugit cumque, sint beatae ad ducimus aliquid dolores sed. Consequuntur quibusdam sapiente odit maxime similique ipsam sit esse ducimus nisi. Quisquam, voluptatem! Ex asperiores alias impedit!</p>
+<h6 class="boldz">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, recusandae. Eius laborum aspernatur nam quisquam?</h6>
+<p class="bold5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque veniam autem eos ipsam dolorum, maiores odio optio iusto ipsum aperiam minima, quos, fugit quam!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, magnam, ab modi distinctio, unde ut repellendus sit illo eaque delectus deleniti eum? Sunt maiores aut nulla est quam, consequuntur numquam pariatur doloremque eligendi quas corporis in necessitatibus facilis molestias autem similique nesciunt architecto repellat excepturi temporibus sed eaque porro. Blanditiis quo incidunt, at saepe, facere id cum numquam quaerat repellendus aliquid facilis accusamus eius? Quod molestiae veritatis iste ab vel, nostrum officiis hic ex non!</p>
+<p class="bold6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis voluptate corporis quasi excepturi perspiciatis non, quia fuga.</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, laborum necessitatibus ipsa architecto ad ut sed quisquam minima illo odio eaque accusamus non totam quidem corporis cumque, earum porro esse iusto. Tempore, placeat. Accusantium ad odio hic ipsa aut. Accusamus, ipsam</p>
+</div>
+<div class="Randompara1 ms-4">
+  <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit?</h6>
+  <p class="bold4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis deleniti tempora obcaecati quidem.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quaerat sunt mollitia culpa animi atque enim. Non sequi veritatis ipsam, pariatur adipisci, fugiat mollitia dicta ullam, saepe veniam cupiditate. Iusto ratione ab nulla inventore dolorum aliquid odio accusamus, facilis suscipit reiciendis sit corporis tenetur amet, dolor tempora provident ipsum dicta, expedita libero debitis quod. Maiores soluta eveniet voluptatum numquam. Placeat omnis cum harum, ipsa fugit cumque, sint beatae ad ducimus aliquid dolores sed. Consequuntur quibusdam sapiente odit maxime similique ipsam sit esse ducimus nisi. Quisquam, voluptatem! Ex asperiores alias impedit!</p>
+<h6 class="boldz">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, recusandae. Eius laborum aspernatur nam quisquam?</h6>
+<p class="bold5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque veniam autem eos ipsam dolorum, maiores odio optio iusto ipsum aperiam minima, quos, fugit quam!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, magnam, ab modi distinctio, unde ut repellendus sit illo eaque delectus deleniti eum? Sunt maiores aut nulla est quam, consequuntur numquam pariatur doloremque eligendi quas corporis in necessitatibus facilis molestias autem similique nesciunt architecto repellat excepturi temporibus sed eaque porro. Blanditiis quo incidunt, at saepe, facere id cum numquam quaerat repellendus aliquid facilis accusamus eius? Quod molestiae veritatis iste ab vel, nostrum officiis hic ex non!</p>
+<p class="bold6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis voluptate corporis quasi excepturi perspiciatis non, quia fuga.</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, laborum necessitatibus ipsa architecto ad ut sed quisquam minima illo odio eaque accusamus non totam quidem corporis cumque, earum porro esse iusto. Tempore, placeat. Accusantium ad odio hic ipsa aut. Accusamus, ipsam</p>
+</div>
+<div class="Randompara1 ms-4">
+  <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit?</h6>
+  <p class="bold4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis deleniti tempora obcaecati quidem.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quaerat sunt mollitia culpa animi atque enim. Non sequi veritatis ipsam, pariatur adipisci, fugiat mollitia dicta ullam, saepe veniam cupiditate. Iusto ratione ab nulla inventore dolorum aliquid odio accusamus, facilis suscipit reiciendis sit corporis tenetur amet, dolor tempora provident ipsum dicta, expedita libero debitis quod. Maiores soluta eveniet voluptatum numquam. Placeat omnis cum harum, ipsa fugit cumque, sint beatae ad ducimus aliquid dolores sed. Consequuntur quibusdam sapiente odit maxime similique ipsam sit esse ducimus nisi. Quisquam, voluptatem! Ex asperiores alias impedit!</p>
+<h6 class="boldz">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, recusandae. Eius laborum aspernatur nam quisquam?</h6>
+<p class="bold5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque veniam autem eos ipsam dolorum, maiores odio optio iusto ipsum aperiam minima, quos, fugit quam!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, magnam, ab modi distinctio, unde ut repellendus sit illo eaque delectus deleniti eum? Sunt maiores aut nulla est quam, consequuntur numquam pariatur doloremque eligendi quas corporis in necessitatibus facilis molestias autem similique nesciunt architecto repellat excepturi temporibus sed eaque porro. Blanditiis quo incidunt, at saepe, facere id cum numquam quaerat repellendus aliquid facilis accusamus eius? Quod molestiae veritatis iste ab vel, nostrum officiis hic ex non!</p>
+<p class="bold6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis voluptate corporis quasi excepturi perspiciatis non, quia fuga.</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, laborum necessitatibus ipsa architecto ad ut sed quisquam minima illo odio eaque accusamus non totam quidem corporis cumque, earum porro esse iusto. Tempore, placeat. Accusantium ad odio hic ipsa aut. Accusamus, ipsam</p>
+</div>
+</footer>
+<footer class="footer7 d-flex">
+  <div class="footerdiv7a mt-4 ms-4">
+  <P>Daraz International</P>
+  <div>
+  <img src="B:\Daraz Website\Daraz Website by html\bangladesh.png" alt="" width="30px" height="30px"><a href="#">Bangladesh</a>
+  <img src="B:\Daraz Website\Daraz Website by html\Myanmar.png" alt="" width="30px" height="30px"><a href="#">Myanmar</a>
+  <img src="B:\Daraz Website\Daraz Website by html\Nepal.png" alt="" width="30px" height="30px"><a href="#">Nepal</a>
+  <img src="B:\Daraz Website\Daraz Website by html\pakistan.png" alt="" width="30px" height="30px"><a href="#">Pakistan</a>
+  <img src="B:\Daraz Website\Daraz Website by html\Sri Lanka.png" alt="" width="30px" height="30px"><a href="#">Sri Lanka</a>
+  </div>
+  </div>
+  <div class="footerdiv7b mt-4 ms-4">
+<p>Follow Us</p>
+<img src="B:\Daraz Website\Daraz Website by html\yt2.png" alt="" height="30px" width="30px">
+<img src="B:\Daraz Website\Daraz Website by html\x.png" alt="" height="30px" width="30px">
+<img src="B:\Daraz Website\Daraz Website by html\fb.png" alt="" height="30px" width="30px">
+<img src="B:\Daraz Website\Daraz Website by html\yt.png" alt="" height="30px" width="30px">
+<img src="B:\Daraz Website\Daraz Website by html\net.png" alt="" height="30px" width="30px">
+  </div>
+  <div>
+    <h6 class="D25">Daraz 2025</h6>
+  </div>
+</footer>
+  
+  
+  
+  
+
+
+  
+
+  
+   
+  
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
